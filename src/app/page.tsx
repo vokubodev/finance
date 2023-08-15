@@ -1,9 +1,9 @@
-import Spend from "./Spend";
+import Login from "./Login";
 
 export default function Home() {
   return (
     <main>
-      <Spend />
+      <Login />
     </main>
   );
 }

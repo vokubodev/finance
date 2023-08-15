@@ -1,10 +1,19 @@
-import { useForm } from "react-hook-form";
+"use client";
+import api from "@/api/api";
+import { FieldValues, useForm } from "react-hook-form";
 
 export default function Login() {
   const { register, handleSubmit } = useForm();
 
-  function login(data: any) {}
-
+  function login(data: FieldValues) {
+    api.login(data).then((user) => {
+      if (user) {
+        alert("login com sucesso");
+      } else {
+        alert("usuario nao encontrado");
+      }
+    });
+  }
   return (
     <>
       <form onSubmit={handleSubmit(login)}>
