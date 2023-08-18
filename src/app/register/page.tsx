@@ -8,7 +8,7 @@ export default function Register() {
   const router = useRouter();
   const register = (data: FieldValues) => {
     userService.create(data).then((created) => {
-      if (created) router.push("/login");
+      if (created) router.push("/");
       else alert("Erro ao criar usuario");
     });
   };
