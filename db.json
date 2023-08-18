@@ -1,9 +1,14 @@
 {
   "users": [
     {
-      "id": 1,
-      "username": "vokubo",
-      "password": "123"
+      "username": "viokubo",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "username": "viokubo2",
+      "password": "123",
+      "id": 2
     }
   ]
 }
