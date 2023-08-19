@@ -10,5 +10,39 @@
       "password": "123",
       "id": 2
     }
+  ],
+  "purchases": [
+    {
+      "name": "Bolsa",
+      "price": 1.75,
+      "type": "credit-card",
+      "userId": 1,
+      "date": "Sat Aug 19 2023",
+      "id": 1
+    },
+    {
+      "name": "Caderno",
+      "price": 1.5,
+      "type": "money",
+      "userId": 1,
+      "date": "Sat Aug 19 2023",
+      "id": 2
+    },
+    {
+      "name": "Lapis",
+      "price": 1.99,
+      "type": "credit-card",
+      "userId": 1,
+      "date": "Sat Aug 19 2023",
+      "id": 3
+    },
+    {
+      "name": "Lamen",
+      "price": 9.8,
+      "type": "money",
+      "userId": 1,
+      "date": "Sat Aug 19 2023",
+      "id": 4
+    }
   ]
 }
